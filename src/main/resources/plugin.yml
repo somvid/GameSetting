@@ -1,0 +1,12 @@
+name: GameSetting
+version: '${version}'
+main: gamesetting.GameSetting
+api-version: 1.14
+authors: [ Dasom ]
+description: A plugin for minecraft social task setting
+
+commands:
+  setting:
+    description: Your description
+    usage: /<command>
+    permission: com.dasom.gamesetting.SettingStart
